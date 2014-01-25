@@ -1,0 +1,39 @@
+{
+  "name": "antenna",
+  "version": "0.0.0",
+  "description": "Ubiquitous message bus for Node.js.",
+  "keywords": [
+    "pubsub"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/antenna.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/antenna/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
