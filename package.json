@@ -1,6 +1,6 @@
 {
   "name": "antenna",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Ubiquitous message bus for Node.js.",
   "keywords": [
     "pubsub"
